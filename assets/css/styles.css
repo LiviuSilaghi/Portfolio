@@ -885,7 +885,6 @@ body.dark-theme {
   position: relative;
   max-width: 100%;
   align-items: center;
-  justify-self: center;
 }
 
 .contact__box {
@@ -1129,7 +1128,9 @@ body.dark-theme {
   .contact__button {
     margin-top: 25px;
   }
-
+  .grid {
+    gap: 1.5rem;
+  }
   .about__item {
     padding-bottom: 1rem;
   }
@@ -1523,7 +1524,6 @@ body.dark-theme {
 
   .projects__container {
     grid-template-columns: repeat(3, 352px);
-    padding-block: 3rem 3rem;
   }
 
   .projects__card {
