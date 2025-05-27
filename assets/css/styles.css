@@ -12,6 +12,8 @@
 
   /*========== Colors ==========*/
   /*Color mode HSL(hue, saturation, lightness)*/
+  /**/
+
   --first-color: hsl(14, 98%, 50%);
   --black-color: hsl(0, 0%, 0%);
   --black-color-light: hsl(0, 0%, 40%);
@@ -813,6 +815,10 @@ body.dark-theme {
 .projects__card:hover {
   background-color: var(--white-color);
 }
+
+.projects__description {
+  height: 80px;
+}
 /*=============== CONTACT ===============*/
 .contact {
   padding-bottom: 0;
@@ -1105,6 +1111,9 @@ body.dark-theme {
   .about__shadow {
     height: 330px;
     right: -2.5rem;
+  }
+  .projects__description {
+    height: 125px;
   }
 
   .contact__data {
