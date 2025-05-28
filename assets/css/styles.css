@@ -157,8 +157,14 @@ body.dark-theme {
   background-color: var(--body-color);
 }
 
-.dark-theme :is(.contact__mail, .contact__input, .contact__label) {
+.dark-theme
+  :is(.contact__mail, .contact__input, .contact__label, .contact__social) {
   background-color: hsl(0, 0%, 4%);
+}
+
+.dark-theme .contact {
+  background-color: var(--body-color);
+  color: var(--white-color);
 }
 
 /*=============== REUSABLE CSS CLASSES ===============*/
@@ -978,7 +984,6 @@ body.dark-theme {
 .contact__social {
   display: grid;
   row-gap: 1rem;
-  background-color: hsl(0, 0%, 10%);
   padding-block: 1rem 2rem;
   text-align: center;
 }
@@ -1001,7 +1006,6 @@ body.dark-theme {
 }
 
 .contact__social-description-2 {
-  color: var(--white-color);
   font-size: var(--small-font-size);
   font-weight: var(--font-semi-bold);
 }
@@ -1038,7 +1042,7 @@ body.dark-theme {
 
 /*=============== FOOTER ===============*/
 .footer {
-  background-color: var(--black-color);
+  background-color: var(--container-color);
 }
 
 .footer__container {
@@ -1183,10 +1187,6 @@ body.dark-theme {
 
   .contact__social-description-1 {
     color: var(--text-color);
-  }
-
-  .contact__social-description-2 {
-    color: var(--title-color);
   }
 
   .dark-theme .contact__social-arrow {
@@ -1580,6 +1580,7 @@ body.dark-theme {
   .contact__social {
     padding: 3rem;
     text-align: initial;
+    background-color: var(--container-color);
   }
 
   .contact__social-data {
