@@ -1057,7 +1057,7 @@ body.dark-theme {
 }
 
 .footer__link {
-  color: var(--white-color);
+  color: var(--text-color);
   transition: color 0.4s;
 }
 
