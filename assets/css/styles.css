@@ -657,9 +657,12 @@ body.dark-theme {
 }
 
 .about__list {
-  list-style: square;
   color: var(--title-color);
   margin-bottom: 3rem;
+}
+
+.about__item {
+  padding-top: 12px;
 }
 
 .about__buttons {
